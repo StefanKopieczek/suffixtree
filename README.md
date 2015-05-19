@@ -10,8 +10,8 @@ The main advantage is that for an up-front linear time cost to build the tree, p
 you can then do substring matches that are linear in the length of the query string, 
 and are *independent of the size of the source string*! That's pretty cool.
 
-Applications include looking for known sequences in a human genome, or searching for words and
-phrases in a currently-open document.
+Applications include looking for known sequences in a human genome, or efficient searching for words and
+phrases in an open document.
 
 Other neat applications include finding the longest repeated substring, or the longest palindrome,
 in a given string in linear time.
