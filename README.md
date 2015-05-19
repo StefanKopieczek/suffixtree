@@ -6,7 +6,7 @@ There are probably better implementations out there; this was just a learning ex
 
 ## Why is it useful?
 
-The main advantage is that for an up-front linear time cost, to build the tree, plus linear space to hold it,
+The main advantage is that for an up-front linear time cost to build the tree, plus linear space to hold it,
 you can then do substring matches that are linear in the length of the query string, 
 and are *independent of the size of the source string*! That's pretty cool.
 
