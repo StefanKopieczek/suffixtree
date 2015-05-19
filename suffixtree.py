@@ -40,6 +40,8 @@ class SuffixTree(object):
         return True
 
     def _insert(self, word):
+        # This algorithm is due to Esko Ukkonen;
+        # see "On-line construction of suffix trees - Ukkonen, E (1995)".
         active_node = self._root
         active_edge = None
         active_length = 0
